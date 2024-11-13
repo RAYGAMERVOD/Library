@@ -1,5 +1,3 @@
-
-
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -21,13 +19,21 @@ local OrionLib = {
 			Text = Color3.fromRGB(240, 240, 240),
 			TextDark = Color3.fromRGB(150, 150, 150)
 		}
+		Rayszn = {
+			Main = Color3.fromRGB(0, 0, 0)
+			Second = Colo3.fromRGB(255, 255, 255)
+			Stroke = Color3.fromRGB(60, 60, 60)
+			Divider = Color3.fromRGB(60, 60, 60)
+			Text = Color3.fromRGB(255, 255, 255)
+			TextDark = Color3.fromRGB(150, 150, 150)
+		}
 	},
 	SelectedTheme = "Default",
 	Folder = nil,
 	SaveCfg = false
 }
 
---Feather Icons https://github.com/evoincorp/lucideblox/tree/master/src/modules/util - Created by 7kayoh
+--Feather Icons https://github.com/evoincorp/lucideblox/tree/master/src/modules/util - Created by rayszn
 local Icons = {}
 
 local Success, Response = pcall(function()
